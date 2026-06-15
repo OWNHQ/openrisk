@@ -27,7 +27,7 @@ This plan translates `OpenRisk_RFP_v0.pdf` into a maintainable v1 product. It al
 - Nuxt 4 with Vue 3 and strict TypeScript.
 - Tailwind CSS 4 for design tokens and responsive utility styling.
 - TanStack Table for sortable and filterable registry and matrix views.
-- Nitro's `vercel-static` preset for a fully prerendered Vercel output.
+- Nitro's `cloudflare-pages-static` preset for a fully prerendered Cloudflare Pages output.
 - A generated JSON snapshot imported synchronously by the app, with no hydration-time data request.
 
 ### Canonical Data
@@ -161,7 +161,7 @@ pnpm run check:no-scoring
 pnpm run typecheck
 pnpm run lint
 pnpm run test
-pnpm run build
+pnpm run generate
 pnpm run test:e2e
 ```
 

@@ -4,7 +4,7 @@
   "type": "module",
   "license": "AGPL-3.0-or-later",
   "scripts": {
-    "build": "pnpm run static:data && nuxt build",
+    "build": "pnpm run generate",
     "dev": "nuxt dev",
     "generate": "pnpm run static:data && nuxt generate",
     "preview": "nuxt preview",
@@ -15,7 +15,7 @@
     "validate:data": "tsx scripts/validate-data.ts",
     "check:no-scoring": "tsx scripts/check-no-scoring.ts",
     "static:data": "tsx scripts/generate-static-data.ts",
-    "static:build": "pnpm run build"
+    "static:build": "pnpm run generate"
   },
   "dependencies": {
     "@nuxt/eslint": "latest",

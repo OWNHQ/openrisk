@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T10:52:31.629Z",
+  "generatedAt": "2026-06-15T14:20:45.521Z",
   "protocols": [
     {
       "id": "spark",
@@ -5152,142 +5152,142 @@
     "spark": {
       "protocolId": "spark",
       "metric": "tvl",
-      "value": 7188347103.488653,
-      "asOf": "2026-06-15T10:52:31.253Z",
+      "value": 7279048813.311477,
+      "asOf": "2026-06-15T14:20:43.096Z",
       "source": "https://defillama.com/protocol/spark"
     },
     "aave": {
       "protocolId": "aave",
       "metric": "tvl",
-      "value": 10371257538.810984,
-      "asOf": "2026-06-15T10:52:31.253Z",
+      "value": 10593418456.250023,
+      "asOf": "2026-06-15T14:20:43.096Z",
       "source": "https://defillama.com/protocol/aave"
     },
     "morpho": {
       "protocolId": "morpho",
       "metric": "tvl",
-      "value": 3495179607.208063,
-      "asOf": "2026-06-15T10:52:31.253Z",
+      "value": 3543196524.39408,
+      "asOf": "2026-06-15T14:20:43.096Z",
       "source": "https://defillama.com/protocol/morpho-blue"
     },
     "fluid": {
       "protocolId": "fluid",
       "metric": "tvl",
-      "value": 614845414.9423865,
-      "asOf": "2026-06-15T10:52:31.253Z",
+      "value": 624167340.6452594,
+      "asOf": "2026-06-15T14:20:43.096Z",
       "source": "https://defillama.com/protocol/fluid"
     },
     "gearbox": {
       "protocolId": "gearbox",
       "metric": "tvl",
-      "value": 14591647.617924448,
-      "asOf": "2026-06-15T10:52:31.253Z",
+      "value": 14903816.353742644,
+      "asOf": "2026-06-15T14:20:43.096Z",
       "source": "https://defillama.com/protocol/gearbox"
     },
     "euler": {
       "protocolId": "euler",
       "metric": "tvl",
-      "value": 126398111.90489866,
-      "asOf": "2026-06-15T10:52:31.253Z",
+      "value": 126735630.70569174,
+      "asOf": "2026-06-15T14:20:43.096Z",
       "source": "https://defillama.com/protocol/euler"
     },
     "compound": {
       "protocolId": "compound",
       "metric": "tvl",
-      "value": 1071194542.1375433,
-      "asOf": "2026-06-15T10:52:31.253Z",
+      "value": 1092413415.5244112,
+      "asOf": "2026-06-15T14:20:43.096Z",
       "source": "https://defillama.com/protocol/compound-finance"
     },
     "liquity": {
       "protocolId": "liquity",
       "metric": "tvl",
-      "value": 202943474.8969882,
-      "asOf": "2026-06-15T10:52:31.253Z",
+      "value": 209625687.94692957,
+      "asOf": "2026-06-15T14:20:43.096Z",
       "source": "https://defillama.com/protocol/liquity"
     },
     "uniswap": {
       "protocolId": "uniswap",
       "metric": "tvl",
-      "value": 1941485285.888802,
-      "asOf": "2026-06-15T10:52:31.253Z",
+      "value": 1955119955.1009362,
+      "asOf": "2026-06-15T14:20:43.096Z",
       "source": "https://defillama.com/protocol/uniswap"
     },
     "curve": {
       "protocolId": "curve",
       "metric": "tvl",
-      "value": 1375065981.3671007,
-      "asOf": "2026-06-15T10:52:31.253Z",
+      "value": 1383505939.621513,
+      "asOf": "2026-06-15T14:20:43.096Z",
       "source": "https://defillama.com/protocol/curve-dex"
     },
     "balancer": {
       "protocolId": "balancer",
       "metric": "tvl",
-      "value": 98003675.1962214,
-      "asOf": "2026-06-15T10:52:31.253Z",
+      "value": 99236835.94428115,
+      "asOf": "2026-06-15T14:20:43.096Z",
       "source": "https://defillama.com/protocol/balancer"
     },
     "cow-swap": {
       "protocolId": "cow-swap",
       "metric": "volume",
       "value": 28253279,
-      "asOf": "2026-06-15T10:52:31.253Z",
+      "asOf": "2026-06-15T14:20:43.096Z",
       "source": "https://defillama.com/protocol/cowswap"
     },
     "one-inch": {
       "protocolId": "one-inch",
       "metric": "volume",
       "value": 25272591,
-      "asOf": "2026-06-15T10:52:31.253Z",
+      "asOf": "2026-06-15T14:20:43.096Z",
       "source": "https://defillama.com/protocol/1inch-network"
     },
     "zero-x-matcha": {
       "protocolId": "zero-x-matcha",
       "metric": "volume",
-      "value": 33911954,
-      "asOf": "2026-06-15T10:52:31.253Z",
+      "value": 37580922,
+      "asOf": "2026-06-15T14:20:43.096Z",
       "source": "https://defillama.com/protocol/0x-aggregator"
     },
     "yearn": {
       "protocolId": "yearn",
       "metric": "tvl",
-      "value": 117159058.35929929,
-      "asOf": "2026-06-15T10:52:31.253Z",
+      "value": 118335293.1118505,
+      "asOf": "2026-06-15T14:20:43.096Z",
       "source": "https://defillama.com/protocol/yearn-finance"
     },
     "mellow": {
       "protocolId": "mellow",
       "metric": "tvl",
-      "value": 127340897.00972365,
-      "asOf": "2026-06-15T10:52:31.253Z",
+      "value": 144004402.14128202,
+      "asOf": "2026-06-15T14:20:43.096Z",
       "source": "https://defillama.com/protocol/mellow-protocol"
     },
     "morpho-vaults": {
       "protocolId": "morpho-vaults",
       "metric": "tvl",
-      "value": 3495179607.208063,
-      "asOf": "2026-06-15T10:52:31.253Z",
+      "value": 3543196524.39408,
+      "asOf": "2026-06-15T14:20:43.096Z",
       "source": "https://defillama.com/protocol/metamorpho",
       "scopeNote": "DefiLlama includes MetaMorpho vault capital in the Morpho protocol total."
     },
     "pendle": {
       "protocolId": "pendle",
       "metric": "tvl",
-      "value": 795743266.9678438,
-      "asOf": "2026-06-15T10:52:31.253Z",
+      "value": 804915197.3069772,
+      "asOf": "2026-06-15T14:20:43.096Z",
       "source": "https://defillama.com/protocol/pendle"
     },
     "lido": {
       "protocolId": "lido",
       "metric": "tvl",
-      "value": 15434517873.02192,
-      "asOf": "2026-06-15T10:52:31.253Z",
+      "value": 15962679659.953524,
+      "asOf": "2026-06-15T14:20:43.096Z",
       "source": "https://defillama.com/protocol/lido"
     },
     "rocket-pool": {
       "protocolId": "rocket-pool",
       "metric": "tvl",
-      "value": 919822808.6552389,
-      "asOf": "2026-06-15T10:52:31.253Z",
+      "value": 945539986.0078787,
+      "asOf": "2026-06-15T14:20:43.096Z",
       "source": "https://defillama.com/protocol/rocket-pool"
     }
   },

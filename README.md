@@ -20,9 +20,9 @@ Canonical data lives in `data/` and is validated by `shared/openrisk.ts`.
 - `data/governance`: sourced governance facts
 - `data/audits` and `data/incidents`: security references
 
-`pnpm run build` refreshes DefiLlama metrics, writes a complete snapshot to
+`pnpm run generate` refreshes DefiLlama metrics, writes a complete snapshot to
 `public/data/openrisk.json`, and prerenders the application with Nitro's
-`vercel-static` preset. The browser does not fetch canonical data during hydration.
+`cloudflare-pages-static` preset. The browser does not fetch canonical data during hydration.
 
 ## Development
 
@@ -34,18 +34,19 @@ pnpm run check:no-scoring
 pnpm run typecheck
 pnpm run lint
 pnpm run test
-pnpm run build
+pnpm run generate
 pnpm run test:e2e
 ```
 
 ## Deployment
 
-```bash
-pnpm run build
-npx vercel deploy --prebuilt
-```
+Cloudflare Pages should use:
 
-The build produces a static `.vercel/output` with no request-time server function.
+- Build command: `pnpm run generate`
+- Build output directory: `dist`
+- Node version: `22.22.2`
+
+The build produces a static Cloudflare Pages artifact with no request-time server function.
 
 ## Correction Process
 

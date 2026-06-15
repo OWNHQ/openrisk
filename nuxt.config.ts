@@ -1,5 +1,17 @@
 import tailwindcss from '@tailwindcss/vite';
 import { fileURLToPath } from 'node:url';
+import staticData from './public/data/openrisk.json';
+
+const prerenderRoutes = [
+  '/',
+  '/feeds',
+  '/info',
+  '/contribute',
+  '/about',
+  '/faq',
+  ...staticData.protocols.map((protocol) => `/protocols/${protocol.id}`),
+  ...staticData.feeds.map((feed) => `/feeds/${feed.id}`),
+];
 
 export default defineNuxtConfig({
   compatibilityDate: '2026-06-11',
@@ -32,10 +44,10 @@ export default defineNuxtConfig({
     },
   },
   nitro: {
-    preset: 'vercel-static',
+    preset: 'cloudflare-pages-static',
     prerender: {
       crawlLinks: true,
-      routes: ['/', '/feeds', '/info', '/contribute', '/about', '/faq'],
+      routes: prerenderRoutes,
     },
   },
   build: {
